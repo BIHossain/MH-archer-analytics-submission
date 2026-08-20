@@ -1,0 +1,4 @@
+change_ts_utc,change_id,scope,change_type,description,environment
+2026-06-17T14:00:00Z,REL-2026.06.17,Archer,pipeline,Parallelization update,production
+2026-06-28T16:00:00Z,CFG-004,SITE-04,mapping,Site mapping configuration change,production
+2026-07-05T13:00:00Z,REL-2026.07.05,Archer,validation,Validation rules v3 enabled,production

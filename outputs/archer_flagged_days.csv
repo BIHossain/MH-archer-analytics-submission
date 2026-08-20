@@ -1,0 +1,12 @@
+event_date,site_id,workflow,records_received,records_delivered,records_valid,p95_latency_seconds,bytes_per_record,delivery_rate_pct,valid_rate_pct,batches_total,batches_failed,batches_retried,max_retry_count,max_batch_duration_s,dq_worst_rule_fail_pct,dq_rules_breaching,dq_worst_rule_id,dq_breaching_rule_ids,baseline_delivery_pct,baseline_valid_pct,baseline_p95_s,flag_delivery,flag_valid,flag_latency,flag_retry,any_flag
+2026-06-17,SITE-02,EHR_TO_EDC,8108,7730,7593,744,986,95.34,98.23,3,1,1,3,899,0.148,0,DQ-04,,98.84,98.26,307.5,True,False,True,True,True
+2026-06-18,SITE-02,EHR_TO_EDC,8453,8080,7949,689,974,95.59,98.38,3,1,1,3,810,0.84,0,DQ-04,,98.84,98.26,307.5,True,False,True,True,True
+2026-06-19,SITE-02,EHR_TO_EDC,8518,8104,7973,700,1046,95.14,98.38,3,1,1,3,887,0.828,0,DQ-04,,98.84,98.26,307.5,True,False,True,True,True
+2026-06-20,SITE-02,EHR_TO_EDC,8537,8140,8029,720,977,95.35,98.64,3,1,1,3,788,0.786,0,DQ-02,,98.84,98.26,307.5,True,False,True,True,True
+2026-06-28,SITE-04,EHR_TO_EDC,10102,9846,8967,383,957,97.47,91.07,3,0,0,0,301,3.009,2,DQ-01,"DQ-01,DQ-03",98.88,98.31,378.0,False,True,False,False,True
+2026-06-29,SITE-04,EHR_TO_EDC,6905,6734,6131,383,943,97.52,91.05,3,0,0,0,248,3.87,2,DQ-03,"DQ-01,DQ-03",98.88,98.31,378.0,False,True,False,False,True
+2026-06-30,SITE-04,EHR_TO_EDC,7830,7646,6925,388,972,97.65,90.57,3,0,0,0,221,6.775,2,DQ-03,"DQ-01,DQ-03",98.88,98.31,378.0,False,True,False,False,True
+2026-07-01,SITE-04,EHR_TO_EDC,7903,7735,7002,334,943,97.87,90.52,3,0,0,0,207,5.883,2,DQ-01,"DQ-01,DQ-03",98.88,98.31,378.0,False,True,False,False,True
+2026-07-05,SITE-05,EHR_TO_EDC,6079,6026,5904,1159,1004,99.13,97.98,3,0,3,2,1112,0.256,0,DQ-02,,98.92,98.28,395.5,False,False,True,True,True
+2026-07-06,SITE-05,EHR_TO_EDC,4069,4012,3932,1192,1064,98.6,98.01,3,0,3,2,1002,1.068,1,DQ-01,DQ-01,98.92,98.28,395.5,False,False,True,True,True
+2026-07-07,SITE-05,EHR_TO_EDC,4825,4777,4709,1208,1040,99.01,98.58,3,0,3,2,1059,0.332,0,DQ-02,,98.92,98.28,395.5,False,False,True,True,True
